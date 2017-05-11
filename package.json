@@ -1,7 +1,7 @@
 {
-  "name": "my-portfolio",
+  "name": "email-template-previewer",
   "version": "0.1.0",
-  "description": "personal work portfolio",
+  "description": "edit and render handlebars templates",
   "main": "index.js",
   "scripts": {
     "install-fix": "npm i --only=\"production\" && npm i --only=\"dev\" --registry=https://registry.npmjs.org",
@@ -13,6 +13,7 @@
   "author": "Stephen Cowie",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "handlebars": "^4.0.8",
     "jquery": "^3.1.1",
     "vue": "^2.1.10",
